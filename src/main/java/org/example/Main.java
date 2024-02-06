@@ -5,6 +5,8 @@ import org.w3c.dom.ls.LSOutput;
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.ArrayList;
 
+import static org.example.Basic.runBasic;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,7 +14,7 @@ public class Main {
         // testArrayLists();
 
 
-        int[] list = {1, 3, 5};
+        /* int[] list = {1, 3, 5};
         int[] list2 = {10, 43, 2};
 
         gangMedTo(list);
@@ -21,6 +23,9 @@ public class Main {
         ArrayList<Integer> CheckList = gangMedTo(list2);
         System.out.println(CheckList);
 
+         */
+
+        runBasic();
 
     }
 
@@ -39,6 +44,8 @@ public class Main {
         //komma tal op til 6-7 decimal tal med "f" bag på. (4 bytes)
         float tal = 5.7f;
 
+        long myLong = 100000000;
+
         // længere decimal tal (8 bytes)
         double nytTal = 2.1;
 
@@ -46,8 +53,6 @@ public class Main {
         char myChar = 'A';
 
         System.out.println(tal + number + nytTal);
-
-
     }
 
     public static void testArrayLists() {
@@ -97,5 +102,3 @@ public class Main {
 
 
 };
-
-
