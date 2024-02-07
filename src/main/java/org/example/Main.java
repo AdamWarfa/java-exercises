@@ -25,7 +25,29 @@ public class Main {
 
          */
 
-        runBasic();
+        // runBasic();
+
+        double adamWeight = 12;
+        byte adamAge = 90;
+
+        Rat rottenAdam = new Rat("Adamr", adamWeight, adamAge, true);
+
+        byte yusAge = 69;
+
+        Rat svans = new Rat("Yussymås", 98.7, yusAge, false);
+        System.out.println(rottenAdam.getName() + " " + rottenAdam.getAge() + " " + rottenAdam.getIsNasty());
+
+        System.out.println(svans.getName() + " " + svans.getAge() + " " + svans.getIsNasty());
+
+
+        byte lionAge = 10;
+        Lion Simba = new Lion("Simbaaaa", 90.8, lionAge, true);
+        System.out.println(Simba.getName() + " " + Simba.getAge() + " " + Simba.getIsKing());
+
+        svans.setIsNasty(true);
+
+        System.out.println(svans.getName() + " " + svans.getAge() + " " + svans.getIsNasty());
+
 
     }
 
